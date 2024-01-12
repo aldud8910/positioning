@@ -1,0 +1,106 @@
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    view-transition-name: root;
+}
+
+html {
+    display: block;
+}
+
+.problem-one {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.problem-one > div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+}
+
+.problem {
+    margin-bottom: 100px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+
+.problem-two > div:first-child {
+    display: flex;
+    justify-content: flex-start;
+}
+.problem-two > div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+.problem-two > div:nth-child(3) {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.problem-three {
+    display: flex;
+    justify-content: center;
+}
+
+.problem-three .outer-box {
+    position: relative;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.lg {
+    width: 200px;
+    height: 200px;
+}
+
+.problem-three .inner-box {
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}
+
+.problem-four {
+    position: relative;
+}
+
+.problem-four > div:nth-child(2) {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.problem-five {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rectangle {
+    width: 300px;
+    height: 150px;
+}
+
